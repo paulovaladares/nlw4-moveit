@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nlw4-react
 
-## Getting Started
+[NLW#4] Trilha ReactJS – Rocketseat Workshop
 
-First, run the development server:
+### Dia 1 - Rumo ao próximo nível
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+No primeiro dia vamos conhecer os conceitos por trás de um front-end SPA, os principais fundamentos do React como componentes, propriedades, estado e ferramentas que funcionam por trás da biblioteca como Webpack e Babel. Além disso, daremos início ao desenvolvimento da aplicação move.it, criando a estrutura básica de componentes da página.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Dia 2 - Desvendando o Next.js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Nesse segundo dia vamos aprender o que é Next.js e quando utilizar no desenvolvimento de aplicações React. Vamos também criar nossos próprios hooks dando vida às funcionalidades de countdown e ganho de experiência e leveis através de desafios.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Dia 3 - Contexto e componentes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Na terceiro aula realizaremos uma separação da aplicação em componentes menores e aplicaremos o conceito de contextos no React, responsável por compartilhar uma informação entre vários componentes em tela. Finalizaremos também a funcionalidade de desafios.
 
-## Learn More
+### Dia 4 - Melhorando a usabilidade da aplicação
 
-To learn more about Next.js, take a look at the following resources:
+Na quarta aula iremos continuar evoluindo nossa aplicação, aprender ainda mais sobre a Context API, e aprender a como utilizar as notificações e sons do navegador para melhorar a experiência do usuário.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dia 5 - Próximo nível com React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Nessa última aula entendermos os próximos passos para avançar nos aprendizados com React com dicas de ferramentas, bibliotecas e conceitos a serem estudados. Também incrementaremos nossa aplicação com algumas features adicionais a fim de mostrar como aplicar esses próximos passos dentro do app desenvolvido na semana.
 
-## Deploy on Vercel
+#### Anotações
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [React with TypeScript: Best Practices](https://www.sitepoint.com/react-with-typescript-best-practices/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Understand ‘+’, ‘>’ and ‘~’ symbols in CSS Selector](https://techbrij.com/css-selector-adjacent-child-sibling)
+
+- [EM vs REM vs PX](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px)
+
+- [What’s The Difference Between PX, EM, REM, %, VW, and VH?](https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/)
+
+Create-REACT-App:
+
+- SPA: Single Page Application
+
+NextJS:
+
+- SSR: Server Side Rendering
+- SSG: Static Site Generation
+
+Gastby:
+
+- SSG: Static Site Generation
