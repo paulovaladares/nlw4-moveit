@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { ChallengesContexts } from "../contexts/ChallengesContext";
 import styles from "../styles/components/Countdown.module.css";
 
 export function Countdown() {
+  const { startNewChallenge } = useContext(ChallengesContexts);
   const totalTime = 0.1 * 60;
   const [time, setTime] = useState(totalTime);
   const [isActive, setIsActive] = useState(false);
@@ -34,12 +36,13 @@ export function Countdown() {
       } else {
         resetCountdown();
         setHasFinished(true);
+        startNewChallenge();
       }
     }
   }, [isActive, time]);
 
   useEffect(() => {
-    console.log("bobou");
+    console.log("hasFinished: ", hasFinished);
   }, [hasFinished]);
 
   return (
