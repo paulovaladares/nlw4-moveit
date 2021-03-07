@@ -4,7 +4,7 @@ import styles from "../styles/components/Countdown.module.css";
 
 export function Countdown() {
   const { startNewChallenge } = useContext(ChallengesContexts);
-  const totalTime = 0.1 * 60;
+  const totalTime = 0.05 * 60;
   const [time, setTime] = useState(totalTime);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);

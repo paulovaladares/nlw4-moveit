@@ -35,13 +35,13 @@
   margin-bottom: 1rem;
 }
 
-.challengeAcitve {
+.challengeActive {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.challengeAcitve header {
+.challengeActive header {
   color: var(--blue);
   font-weight: 600;
   font-size: 1.25rem;
@@ -49,7 +49,7 @@
   border-bottom: 1px solid var(--gray-line);
 }
 
-.challengeAcitve main {
+.challengeActive main {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -57,24 +57,24 @@
   justify-content: center;
 }
 
-.challengeAcitve main strong {
+.challengeActive main strong {
   font-weight: 600;
   font-size: 2rem;
   color: var(--title);
   margin: 1.5rem 0 1rem;
 }
 
-.challengeAcitve main p {
+.challengeActive main p {
   line-height: 1.5;
 }
 
-.challengeAcitve footer {
+.challengeActive footer {
   display: grid;
   grid-template-columns: 1fr 1fr; /* repeat(2, 1fr */
   gap: 1rem;
 }
 
-.challengeAcitve footer button {
+.challengeActive footer button {
   height: 3rem;
   display: flex;
   align-items: center;
@@ -86,14 +86,14 @@
   transition: filter 0.2s;
 }
 
-.challengeAcitve footer button.challengeFailButton {
+.challengeActive footer button.challengeFailButton {
   background: var(--red);
 }
 
-.challengeAcitve footer button.challengeSucceededButton {
+.challengeActive footer button.challengeSucceededButton {
   background: var(--green);
 }
 
-.challengeAcitve footer button:hover {
+.challengeActive footer button:hover {
   filter: brightness(0.9);
 }
