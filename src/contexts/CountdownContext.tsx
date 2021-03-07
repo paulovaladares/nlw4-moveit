@@ -46,18 +46,15 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     setTime(totalTime);
   }
 
-  // o vai executar = function , quando  = array de dependências, variaveis qeu vao mudar valor
   useEffect(() => {
-    if (isActive) {
-      if (time > 0) {
-        countdownTimeout = setTimeout(() => {
-          setTime(time - 1);
-        }, 1000);
-      } else {
-        setHasFinished(true);
-        setIsActive(false);
-        startNewChallenge();
-      }
+    if (isActive && time > 0) {
+      countdownTimeout = setTimeout(() => {
+        setTime(time - 1);
+      }, 1000);
+    } else if (isActive && time === 0) {
+      setHasFinished(true);
+      setIsActive(false);
+      startNewChallenge();
     }
   }, [isActive, time]);
 
