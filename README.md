@@ -44,3 +44,9 @@ NextJS:
 Gastby:
 
 - SSG: Static Site Generation
+
+#### Deploy
+
+- [Netlify](https://www.netlify.com/)
+
+- [Vercel](https://vercel.com/)
