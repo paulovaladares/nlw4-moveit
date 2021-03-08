@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { ChallengesContexts } from "../contexts/ChallengesContext";
+import { ChallengesContext } from "../contexts/ChallengesContext";
 import styles from "../styles/components/Profile.module.css";
 
 export function Profile() {
-  const { level } = useContext(ChallengesContexts);
+  const { level } = useContext(ChallengesContext);
   return (
     <div className={styles.profileContainer}>
       <img

@@ -6,7 +6,7 @@ import React, {
   useState,
 } from "react";
 
-import { ChallengesContexts } from "../contexts/ChallengesContext";
+import { ChallengesContext } from "../contexts/ChallengesContext";
 
 interface CountdownContextData {
   minutes: number;
@@ -24,7 +24,7 @@ interface CountdownProviderProps {
 export const CountdownContext = createContext({} as CountdownContextData);
 
 export function CountdownProvider({ children }: CountdownProviderProps) {
-  const { startNewChallenge } = useContext(ChallengesContexts);
+  const { startNewChallenge } = useContext(ChallengesContext);
   const totalTime = 0.05 * 60;
   const [time, setTime] = useState(totalTime);
   const [isActive, setIsActive] = useState(false);
