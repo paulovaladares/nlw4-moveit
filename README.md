@@ -47,6 +47,12 @@ Gastby:
 
 #### Deploy
 
+- [Vercel](https://vercel.com/)
+
 - [Netlify](https://www.netlify.com/)
 
-- [Vercel](https://vercel.com/)
+- [Travis](https://www.travis-ci.com/)
+
+- [Heroku](https://www.heroku.com/)
+
+- [Firebase](https://firebase.google.com/)
